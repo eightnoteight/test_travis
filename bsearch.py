@@ -4,5 +4,5 @@ def bsearch(lo, hi, predicate):
         if predicate(mid):
             hi = mid
         else:
-            lo = mid + 1
+            lo = mid
     return lo
